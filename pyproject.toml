@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "p2nispyenv"
+version = "0.1.0"
+description = "Minimum demo project"
+authors = ["Robert Elles"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+benepar = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
